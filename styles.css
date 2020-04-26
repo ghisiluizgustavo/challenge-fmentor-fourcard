@@ -1,0 +1,133 @@
+*, html, body, footer{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  width: 600px;
+  margin: 40px auto 0px auto;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 15px;
+  color: hsl(229, 6%, 66%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(234, 12%, 34%);
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  color: hsl(234, 12%, 34%);
+}
+
+.first{
+  font-weight: 200;
+}
+
+.second{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  color: hsl(229, 6%, 66%);
+}
+
+.container{
+  display: block;
+  margin: 0 auto;
+}
+
+.card{
+  position: relative;
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 9px 7px 5px rgba(165, 162, 162, 0.77);
+}
+
+.supervisor{
+  right: 400px;
+  top: 430px;
+  border-top: 4px solid hsl(180, 62%, 55%);
+  color: hsl(234, 12%, 34%);
+}
+.team{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  border-top: 4px solid hsl(0, 78%, 62%);
+  color: hsl(234, 12%, 34%);
+}
+
+.karma{
+  border-top: 4px solid hsl(34, 97%, 64%);
+  color: hsl(234, 12%, 34%);
+}
+
+.calculator {
+  bottom: 430px;
+  left: 400px;
+  border-top: 4px solid hsl(212, 86%, 64%);
+  color: hsl(234, 12%, 34%);
+}
+
+.supervisor:hover{
+  background-color: hsl(180, 62%, 55%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.team:hover{
+  background-color: hsl(0, 78%, 62%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.calculator:hover{
+  background-color: hsl(212, 86%, 64%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.karma:hover{
+  background-color: hsl(34, 97%, 64%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.img-supervisor {
+  position: relative;
+  left: 240px;
+  top: 80px;
+}
+
+.img-calculator {
+  position: relative;
+  left: 240px;
+  top: 80px;
+}
+
+.img-karma {
+  position: relative;
+  left: 240px;
+  top: 80px;
+}
+
+.img-team{
+  position: relative;
+  left: 240px;
+  top: 80px;
+}
